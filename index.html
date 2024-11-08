@@ -12,16 +12,15 @@
 		<title>Yanko Chergov</title>
 	</head>
 	<body>
-		<header>
-			<h1 id="logo">Yanko Chergov</h1>
-			<nav>
-				<ul>
-					<li><a href="#about-me">About Me</a></li>
-					<li><a href="#skills">Skills</a></li>
-					<li><a href="#projects">Projects</a></li>
-				</ul>
-			</nav>
-		</header>
+		<nav>
+			<h1 id="logo">Yanko's Portfolio</h1>
+			<ul class="nav-links">
+				<li class="nav-item"><a href="#about-me">About Me</a></li>
+				<li class="nav-item"><a href="#skills">Skills</a></li>
+				<li class="nav-item"><a href="#projects">Projects</a></li>
+			</ul>
+		</nav>
+
 		<main>
 			<section id="about-me">
 				<div id="about-me-text">
@@ -29,8 +28,9 @@
 					<p>
 						Hello, my name is Yanko from Sofia, Bulgaria and I am 26. I am also
 						a web developer in training. <br />
-						I am currently learning HTML, CSS and JavaScript with hopes of
-						moving to more advanced web development technologies. <br />
+						I am currently improving my knowledge ofhe HTML, CSS and JavaScript
+						with hopes of moving to more advanced web development technologies.
+						<br />
 					</p>
 					<p>
 						This is a page that will track all the projects that I have created
@@ -44,57 +44,53 @@
 						sports such as <br />
 						American Football and Motorsports like the World Endurance
 						Championship. <br />
-						I also like to watch tv shows so I am currently watching all
-						the Star Wars series that have come ou~t in recent years. <br />
+						I also like to watch tv shows so I am currently watching all the
+						Star Wars series that have come ou~ t in recent years. <br />
 					</p>
 					<p>
-						Thank you for visiting and reading through this page. Feel free to
-						come back anytime. <br />
-						Have a great day! <br />
+						Thank you for visiting and reading through this page!
+						<i class="fa-solid fa-heart"></i> <br />
 					</p>
 				</div>
-				<div class="about-me-pic">
-					<img src="yanko.jpg" alt="my picture here" />
-				</div>
+				<img src="yanko.jpg" alt="my_picture" class="myPicture" />
 			</section>
 
 			<section id="skills">
 				<h2>Skills</h2>
 				<div class="skills-container">
-					<i class="fa-brands fa-html5"></i>
-					<i class="fa-brands fa-css3"></i>
-					<i class="fa-brands fa-square-js"></i>
-					<i class="fa-brands fa-git"></i>
-					<i class="fa-brands fa-github"></i>
-					<i class="fa-solid fa-terminal"></i>
-					<i class="fa-brands fa-chrome"></i>
+					<i class="icon fa-brands fa-html5"></i>
+					<i class="icon fa-brands fa-css3"></i>
+					<i class="icon fa-brands fa-square-js"></i>
+					<i class="icon fa-brands fa-git"></i>
+					<i class="icon fa-brands fa-github"></i>
+					<i class="icon fa-solid fa-terminal"></i>
+					<i class="icon fa-brands fa-chrome"></i>
 				</div>
 			</section>
 
 			<section id="projects">
 				<h2>Projects</h2>
-				<div id="projects-container">
-					<div class="project">
-						<h3>Vanilla Tasks</h3>
-						<p>
-							This is a project that uses the most basic HTML, CSS and JS
-							without any frameworks. <br />
-							It uses local storage for storing data in case the page gets
-							refreshed. <br />
-							It is used to solidify the basics of all 3 technologies without
-							using anything complex. <br />
-							In the future this can be upgraded with a proper database such as
-							MongoDB, express.js for backend and React.js for frontend. <br />
-						</p>
-						<div class="links">
-							<a href="https://vanilla-tasks.netlify.app/">Web Page</a>
-
-							<a href="https://github.com/YankoChergov55/VanillaTasks"
-								>Repository</a
-							>
-						</div>
-						<img src="vanilla_tasks.png" alt="view from the app" />
-					</div>
+				<div class="project">
+					<h3 class="project-title">Vanilla Tasks</h3>
+					<p>
+						This is a project that uses the most basic HTML, CSS and JS without
+						any frameworks. <br />
+						It uses local storage for storing data in case the page gets
+						refreshed. <br />
+						It is used to solidify the basics of all 3 technologies without
+						using anything complex. <br />
+						In the future this can be upgraded with a proper database such as
+						MongoDB, express.js for backend and React.js for frontend. <br />
+					</p>
+					<a href="https://github.com/YankoChergov55/VanillaTasks"
+						><i class="fa-brands fa-github project-repo"></i
+					></a>
+					<a href="https://vanilla-tasks.netlify.app/"
+						><img
+							src="vanilla_tasks.png"
+							alt="view from the app"
+							class="project-img"
+					/></a>
 				</div>
 			</section>
 		</main>
