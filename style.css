@@ -16,6 +16,7 @@ body {
 }
 
 body {
+	cursor: default;
 	font-family: 'Space Grotesk', sans-serif;
 	font-optical-sizing: auto;
 	font-weight: 400;
@@ -27,6 +28,18 @@ body {
 	justify-content: space-between;
 	background-color: #ecdfcc;
 	color: #3c3d37;
+}
+
+a {
+	color: inherit;
+}
+
+a:hober {
+	cursor: pointer;
+}
+
+.icon:hover {
+	color: #697565;
 }
 
 .darkmode {
@@ -76,7 +89,6 @@ nav {
 
 .nav-links a {
 	text-decoration: none;
-	color: inherit;
 }
 
 section {
@@ -153,7 +165,7 @@ footer {
 		padding: 2em;
 	}
 
-	#about-me {
+	section {
 		flex-direction: column;
 	}
 
